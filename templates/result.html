@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+Prediction Result
+</title>
+
+
+<style>
+
+body{
+
+font-family:Arial;
+text-align:center;
+background:#f1f8e9;
+
+}
+
+
+img{
+
+width:350px;
+border-radius:10px;
+
+}
+
+
+.card{
+
+background:white;
+padding:30px;
+margin:50px auto;
+width:450px;
+border-radius:15px;
+
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div class="card">
+
+
+<h1>
+Prediction Result
+</h1>
+
+
+<img src="/{{image_path}}">
+
+
+<h2>
+Disease:
+{{disease}}
+</h2>
+
+
+<h3>
+Confidence:
+{{confidence}} %
+</h3>
+
+
+<a href="/">
+Try Another Image
+</a>
+
+
+</div>
+
+
+</body>
+
+
+</html>

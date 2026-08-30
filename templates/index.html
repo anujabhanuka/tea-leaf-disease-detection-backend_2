@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>
+Tea Disease Detection
+</title>
+
+
+<style>
+
+body{
+
+font-family: Arial;
+background:#f1f8e9;
+text-align:center;
+padding:50px;
+
+}
+
+
+.container{
+
+background:white;
+padding:40px;
+border-radius:15px;
+width:400px;
+margin:auto;
+
+}
+
+
+button{
+
+background:#2e7d32;
+color:white;
+padding:12px 25px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+
+}
+
+
+</style>
+
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>
+🌱 Tea Disease Detection
+</h1>
+
+
+<form action="/predict"
+method="POST"
+enctype="multipart/form-data">
+
+
+<input
+type="file"
+name="image"
+accept="image/*"
+required>
+
+
+<br><br>
+
+
+<button type="submit">
+
+Detect Disease
+
+</button>
+
+
+</form>
+
+
+</div>
+
+
+</body>
+
+</html>
